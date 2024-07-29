@@ -10,6 +10,8 @@ export default function Signup() {
 
         data.acquisition = acquisitionChannel;
         console.log(data);
+
+        // event.target.reset(); 1. one way to reset the form. 2. Other way is by giving type="reset" in the below reset button. Here this is used.
     }
 
     return (
